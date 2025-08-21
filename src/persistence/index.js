@@ -1,2 +1,2 @@
-if (process.env.MYSQL_HOST) module.exports = require('./mysql');
+if (process.env.PG_HOST) module.exports = require('./postgres');
 else module.exports = require('./sqlite');
